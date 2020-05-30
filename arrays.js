@@ -3,6 +3,6 @@ function addElementToBeginningOfArray(){
  chocolateBars = ["foo",...chocolateBars]
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBars,element){
+function destructivelyAddElementToBeginningOfArray(){
   chocolateBars['foo', 1]
 }
